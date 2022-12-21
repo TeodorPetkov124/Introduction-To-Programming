@@ -1,5 +1,7 @@
-from package import add, minus, multiply, divide
+import sys
+sys.path.append('E:\TeodorProgramming\Lab-08\package')
 
+from package import add, minus, multiply, divide
 print(f" 1.Add \n 2.Subtract \n 3.Multiply \n 4.Divide")
 x = int(input("Select operation: "))
 
