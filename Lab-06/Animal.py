@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 class Animal():
@@ -111,7 +110,7 @@ for i in animals:
     elif type(i) == Horse:
         foodQuantity = food["grass"]
         print(f"{i.name} the Horse jsut ate {i.eat_food(foodQuantity)[1]} {list(food.keys())[3]}, there's {i.eat_food(foodQuantity)[0]} left.")               
-=======
+
 import random
 
 class Animal():
@@ -224,4 +223,4 @@ for i in animals:
     elif type(i) == Horse:
         foodQuantity = food["grass"]
         print(f"{i.name} the Horse jsut ate {i.eat_food(foodQuantity)[1]} {list(food.keys())[3]}, there's {i.eat_food(foodQuantity)[0]} left.")               
->>>>>>> a44b987b961262e3601eff34d1462cf05495ee02
+

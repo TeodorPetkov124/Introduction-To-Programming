@@ -6,5 +6,5 @@ class Account:
         self.IBAN = IBAN
 
     def print_account(self):
-        return print(f"Account info: {self.balance} {self.currency} {self.acc_type} {self.IBAN}")
+        return f"Account info:({self.balance}, {self.currency}, {self.acc_type}, {self.IBAN}) "
         

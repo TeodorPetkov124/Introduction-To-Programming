@@ -21,3 +21,7 @@ class InvalidDataFormat(Exception):
 class InvalidCommand(Exception):
     def __init__(self, message):
         self.message = message
+
+class NotEnoughMoney(Exception):
+    def __init__(self, message):
+        self.message = message        
